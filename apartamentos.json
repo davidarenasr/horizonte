@@ -1,0 +1,32 @@
+[
+    {
+      "nombre": "Apartamento 101",
+      "ubicacion": "Bogotá, Chapinero",
+      "telefono": "3102850000",
+      "precio": "$1.200.000",
+      "descripcion": "Apartamento amoblado con 2 habitaciones y balcón.",
+      "imagenes": [
+        "imagenes/apt1_1.jpg",
+        "imagenes/apt1_2.jpg",
+        "imagenes/apt1_3.jpg",
+        "imagenes/apt1_4.jpg",
+        "imagenes/apt1_5.jpg"
+      ]
+    },
+    {
+      "nombre": "Apartamento 202",
+      "ubicacion": "Medellín, El Poblado",
+      "telefono": "3102850000",
+      "precio": "$2.000.000",
+      "descripcion": "Moderno y amplio, cerca al metro y zonas comerciales.",
+      "imagenes": [
+        "imagenes/apt2_1.jpg",
+        "imagenes/apt2_2.jpg",
+        "imagenes/apt2_3.jpg",
+        "imagenes/apt2_4.jpg",
+        "imagenes/apt2_5.jpg"
+      ]
+    }
+  ]
+  
+  

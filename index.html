@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Apartamentos en Arriendo</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f9f9f9;
+      padding: 2em;
+    }
+    .apartamento {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 1em;
+      margin-bottom: 2em;
+      background: #fff;
+      max-width: 600px;
+    }
+    h2 {
+      color: #000000;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+      margin: 10px 0;
+}
+  </style>
+</head>
+<body>
+  <h1>Listado de Apartamentos en Arriendo</h1>
+  <div id="lista-apartamentos"></div>
+
+  <script>
+    fetch('apartamentos.json')
+      .then(response => response.json())
+      .then(data => {
+        const contenedor = document.getElementById('lista-apartamentos');
+        data.forEach(apto => {
+          const div = document.createElement('div');
+          div.className = 'apartamento';
+          let imagenesHTML = apto.imagenes.map(url => `
+        <img src="${url}" alt="Foto de ${apto.nombre}">
+        `).join('');
+          div.innerHTML = `
+            <h2>${apto.nombre}</h2>
+             <div class="galeria">${imagenesHTML}</div>
+             <p><strong>Ubicación:</strong> ${apto.ubicacion}</p>
+             <p><strong>telefono:</strong> ${apto.telefono}</p>
+             <p><strong>Precio:</strong> ${apto.precio}</p>
+             <p>${apto.descripcion}</p>
+          `;
+          contenedor.appendChild(div);
+        });
+      })
+      .catch(error => {
+        console.error('Error al cargar los apartamentos:', error);
+      });
+  </script>
+</body>
+</html>

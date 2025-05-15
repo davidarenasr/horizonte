@@ -1,6 +1,7 @@
 [
     {
       "nombre": "Apartamento 101",
+      "estado": "*Arrendado*",
       "ubicacion": "Bogotá, Chapinero",
       "telefono": "3102850000",
       "precio": "$1.200.000",
@@ -15,6 +16,7 @@
     },
     {
       "nombre": "Apartamento 202",
+      "estado": "*Arrendado*",
       "ubicacion": "Medellín, El Poblado",
       "telefono": "3102850000",
       "precio": "$2.000.000",
@@ -26,7 +28,43 @@
         "imagenes/apt2_4.jpg",
         "imagenes/apt2_5.jpg"
       ]
+    },
+    {
+      "nombre": "Apartamento 303",
+      "estado": "Disponible",
+      "ubicacion": "Cali, San Fernando",
+      "telefono": "3102850000",
+      "precio": "$1.500.000",
+      "descripcion": "Apartamento con excelente vista y parqueadero.",
+      "imagenes": [
+        "imagenes/apt3_1.jpg",
+        "imagenes/apt3_2.jpg"
+      ]
+    },
+    {
+      "nombre": "Apartamento 404",
+      "estado": "*Arrendado*",
+      "ubicacion": "Barranquilla, Norte Centro Histórico",
+      "telefono": "3102850000",
+      "precio": "$1.300.000",
+      "descripcion": "Apto fresco con ventilación natural y zonas verdes.",
+      "imagenes": [
+        "imagenes/apt4_1.jpg",
+        "imagenes/apt4_2.jpg"
+      ]
+    },
+    {
+      "nombre": "Apartamento 505",
+      "estado": "Disponible",
+      "ubicacion": "Cartagena, Bocagrande",
+      "telefono": "3102850000",
+      "precio": "$3.000.000",
+      "descripcion": "Apartamento de lujo con vista al mar.",
+      "imagenes": [
+        "imagenes/apt5_1.jpg",
+        "imagenes/apt5_2.jpg",
+        "imagenes/apt5_3.jpg"
+      ]
     }
   ]
-  
   

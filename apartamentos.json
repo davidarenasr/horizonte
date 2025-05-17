@@ -1,11 +1,11 @@
 [
     {
-      "nombre": "Apartamento 101",
-      "estado": "*Arrendado*",
-      "ubicacion": "Bogotá, Chapinero",
-      "telefono": "3102850000",
-      "precio": "$1.200.000",
-      "descripcion": "Apartamento amoblado con 2 habitaciones y balcón.",
+      "nombre": "Apartamento 1",
+      "estado": "Disponible***",
+      "ubicacion": "Bogotá, Nor occidente",
+      "telefono": "3107698526",
+      "precio": "$1.000000",
+      "descripcion": "Apartamento dos habitaciones, cocina integral, baño,habitaciones grandes.",
       "imagenes": [
         "imagenes/apt1_1.jpg",
         "imagenes/apt1_2.jpg",
@@ -15,34 +15,37 @@
       ]
     },
     {
-      "nombre": "Apartamento 202",
-      "estado": "*Arrendado*",
-      "ubicacion": "Medellín, El Poblado",
-      "telefono": "3102850000",
-      "precio": "$2.000.000",
-      "descripcion": "Moderno y amplio, cerca al metro y zonas comerciales.",
+      "nombre": "Apartamento 2",
+      "estado": "Disponible***",
+      "ubicacion": "Bogota, noroccidente, Engativa, localidad 10",
+      "telefono": "3107698526",
+      "precio": "$1000000",
+      "descripcion": "Una habitaciòn, sala comedor, cocina, un banño, zona de lavado independiente, totalmente independiente. zonas comerciales.",
       "imagenes": [
-        "imagenes/apt2_1.jpg",
-        "imagenes/apt2_2.jpg",
-        "imagenes/apt2_3.jpg",
-        "imagenes/apt2_4.jpg",
-        "imagenes/apt2_5.jpg"
+        "imagenes/apt2_6.jpg",
+        "imagenes/apt2_7.jpg",
+        "imagenes/apt2_8.jpg",
+        "imagenes/apt2_9.jpg",
+        "imagenes/apt2_10.jpg"
       ]
     },
     {
-      "nombre": "Apartamento 303",
-      "estado": "Disponible",
-      "ubicacion": "Cali, San Fernando",
-      "telefono": "3102850000",
-      "precio": "$1.500.000",
-      "descripcion": "Apartamento con excelente vista y parqueadero.",
+      "nombre": "Apartamento 3",
+      "estado": "Disponible***",
+      "ubicacion": "Centro de Bogota, Calle 18 con carrera 4ta, piso 4",
+      "telefono": "3107698526",
+      "precio": "$1.700.000 (Administración incluida)",
+      "descripcion": "20.07m2, Edificio con zona coworking, gimnasio, 2 terrazas, salas de estudio, salón de juegos, parqueadero de visitantes, lavandería, entre otros.",
       "imagenes": [
-        "imagenes/apt3_1.jpg",
-        "imagenes/apt3_2.jpg"
+        "imagenes/apt3_11.jpg",
+        "imagenes/apt3_12.jpg",
+        "imagenes/apt3_13.jpg",
+        "imagenes/apt3_14.jpg",
+        "imagenes/apt3_15.jpg"
       ]
     },
     {
-      "nombre": "Apartamento 404",
+      "nombre": "Apartamento 4",
       "estado": "*Arrendado*",
       "ubicacion": "Barranquilla, Norte Centro Histórico",
       "telefono": "3102850000",
@@ -54,7 +57,7 @@
       ]
     },
     {
-      "nombre": "Apartamento 505",
+      "nombre": "Apartamento 5",
       "estado": "Disponible",
       "ubicacion": "Cartagena, Bocagrande",
       "telefono": "3102850000",
